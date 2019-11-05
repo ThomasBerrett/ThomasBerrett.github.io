@@ -9,7 +9,7 @@
        </div>
       <!-- contact -->
       <div id="photo">
-         <img style="height: 300px;" alt="website_picture2.JPG" src="http://www.statslab.cam.ac.uk/~tbb26/Website_picture2.JPG" align="middle"/>
+         <img style="height: 100px;" alt="website_picture2.JPG" src="Website_picture2.JPG" align="middle"/>
       </div>
       <div id="contact">
          <p>
