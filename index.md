@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en-GB">
    <head>
       <title>Thomas Berrett</title>
@@ -9,7 +8,7 @@
        </div>
       <!-- contact -->
       <div id="photo">
-         <img style="height: 100px;" alt="website_picture2.JPG" src="Website_picture2.JPG" align="middle"/>
+         <img style="height: 300px;" alt="website_picture2.JPG" src="Website_picture2.JPG" align="middle"/>
       </div>
       <div id="contact">
          <p>
