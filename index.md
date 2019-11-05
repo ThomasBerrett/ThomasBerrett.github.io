@@ -5,7 +5,6 @@
    </head>
    <body>
       <h1>Thomas Berrett</h1>
-       </div>
       <!-- contact -->
       <div id="photo">
          <img style="height: 300px;" alt="website_picture2.JPG" src="Website_picture2.JPG" align="middle"/>
@@ -89,7 +88,4 @@ estimation, independence testing and classification. <i> PhD Thesis </i> (<a hre
             In Michaelmas 2017 I lectured the Part III course <a href="https://www.maths.cam.ac.uk/sites/www.maths.cam.ac.uk/files/topicsinstatisticaltheory_berrett.pdf" title="https://www.maths.cam.ac.uk/sites/www.maths.cam.ac.uk/files/topicsinstatisticaltheory_berrett.pdf">Topics in Statistical Theory</a> . Example sheet one is <a href="http://www.statslab.cam.ac.uk/~tbb26/Example1.pdf">here</a>, example sheet two is <a href="http://www.statslab.cam.ac.uk/~tbb26/Example2.pdf">here</a> and example sheet three is <a href="http://www.statslab.cam.ac.uk/~tbb26/Example3.pdf">here</a> . I have previously supervised Part IB <a href="https://www.dpmms.cam.ac.uk/study/IB/Statistics/" title="https://www.dpmms.cam.ac.uk/study/IB/Statistics/">Statistics</a>, Part II <a href="https://www.dpmms.cam.ac.uk/study/II/PrinciplesOfStatistics/" title="https://www.dpmms.cam.ac.uk/study/II/PrinciplesOfStatistics/">Principles of Statistics</a>, Part II <a href="https://www.dpmms.cam.ac.uk/study/II/StatisticalModelling/" title="https://www.dpmms.cam.ac.uk/study/II/StatisticalModelling/">Statistical Modelling</a> and Part II <a href="https://www.dpmms.cam.ac.uk/study/II/AppliedProbability/" title="https://www.dpmms.cam.ac.uk/study/II/AppliedProbability/">Applied Probability</a>.
             <br><!--teaching-->
          </p>
-      </div>
       <!--main-->
-   </body>
-</html>
