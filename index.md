@@ -54,13 +54,13 @@
 	 </ul>
 	 <ul>
 	    <li>
-	       Berrett, T. B., Samworth, R. J. and Yuan, M. (2019) Efficient multivariate entropy estimation via k-nearest neighbour distances. <i> Ann. Statist.</i>,<b> 47 </b>, 288-318.(<a href="http://www.statslab.cam.ac.uk/~tbb26/EntropyEstimation.pdf">.pdf</a>). The online supplementary material is available here: (<a href="http://www.statslab.cam.ac.uk/~tbb26/EntropyEstimationSupp.pdf">.pdf</a>)
+	       Berrett, T. B., Samworth, R. J. and Yuan, M. (2019) Efficient multivariate entropy estimation via k-nearest neighbour distances. <i> Ann. Statist.</i>,<b> 47 </b>, 288-318.(<a href="EntropyEstimation.pdf">.pdf</a>). The online supplementary material is available here: (<a href="EntropyEstimationSupp.pdf">.pdf</a>)
             </li>
          </ul>
 	  <ul>
 	    <li>
 	       Berrett, T. B. (2017) Modern k-nearest neighbour methods in entropy
-estimation, independence testing and classification. <i> PhD Thesis </i> (<a href="http://www.statslab.cam.ac.uk/~tbb26/thesis.pdf">.pdf</a>)
+estimation, independence testing and classification. <i> PhD Thesis </i> (<a href="thesis.pdf">.pdf</a>)
 	    </li>
 	 </ul>
          </p>
