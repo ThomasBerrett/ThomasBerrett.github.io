@@ -4,7 +4,7 @@
       <link rel="stylesheet" href="http://www.statslab.cam.ac.uk/~tbb26/style.css">
    </head>
    <body>
-      <h1>Thomas Berrett</h1>
+	<h2>Address</h2>
       <!-- contact -->
       <div id="contact">
          <p>
