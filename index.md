@@ -77,9 +77,7 @@ estimation, independence testing and classification. <i> PhD Thesis </i> (<a hre
 
  	 <h2>Workshop organisation</h2>
 	 <p id="about">
-	   Together with Nikolai Leonenko, Richard Lockhart, Richard Samworth and Yihong Wu I organised a workshop in Cambridge from 9-11 September 2019 on "Estimation of entropies and other functionals: Statistics meets information theory". The final programme and booklet of abstracts can be found 
-	   
-	   [here](./Schedule.pdf).
+	   Together with Nikolai Leonenko, Richard Lockhart, Richard Samworth and Yihong Wu I organised a workshop in Cambridge from 9-11 September 2019 on "Estimation of entropies and other functionals: Statistics meets information theory". The final programme and booklet of abstracts can be found <a href="Schedule.pdf">here</a>.
 	 
 	 
          <h2>Teaching</h2>
