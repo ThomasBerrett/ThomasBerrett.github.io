@@ -27,6 +27,11 @@
 
          <h2>Core Statistical Publications and Preprints</h2>
          <p id="publications">
+	 <ul>
+	    <li>
+	       Berrett, T. B. and Butucea, C. (2019) Classification under local differential privacy. <i> Preprint </i> (<a href="http://arxiv.org/abs/1912.04629">.pdf</a>).
+	    </li>
+	 </ul>
 	   <ul>
 	    <li>
 	       Berrett, T. B. and Samworth, R. J. (2019) Efficient two-sample functional estimation and the super-oracle phenomenon. <i> Preprint </i> (<a href="https://arxiv.org/abs/1904.09347">.pdf</a>).
