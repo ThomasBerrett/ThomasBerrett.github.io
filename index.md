@@ -19,7 +19,7 @@
       <div style="clear: both;" id="main">
          <h2>About me</h2>
          <p id="about">
-           I am currently a postdoctoral researcher at <a href="https://www.ensae.fr/en/">ENSAE ParisTech</a> supervised by Prof. <a href="www.crest.fr/pagesperso.php?user=3096/">Cristina Butucea</a>. Until August 2019 I was postdoctoral researcher supervised by Prof. <a href="https://www.statslab.cam.ac.uk/~rjs57/">Richard J. Samworth</a>, in the <a href="http://www.statslab.cam.ac.uk/" title="http://www.statslab.cam.ac.uk/">Statistical Laboratory</a>, a subdepartment of the Department of Pure Mathematics and Mathematical Statistics at the University of Cambridge, and was affiliated with the <a href="https://www.statscale.org/" title="https://www.statscale.org">StatScale</a> programme. In September 2017 I defended my PhD thesis which I worked on under the supervision of Prof Richard J. Samworth. <br><br/>
+           I am currently a postdoctoral researcher at <a href="https://www.ensae.fr/en/">CREST, ENSAE, Institut Polytechnique de Paris</a> supervised by Prof. <a href="www.crest.fr/pagesperso.php?user=3096/">Cristina Butucea</a>. Until August 2019 I was postdoctoral researcher supervised by Prof. <a href="https://www.statslab.cam.ac.uk/~rjs57/">Richard J. Samworth</a>, in the <a href="http://www.statslab.cam.ac.uk/" title="http://www.statslab.cam.ac.uk/">Statistical Laboratory</a>, a subdepartment of the Department of Pure Mathematics and Mathematical Statistics at the University of Cambridge, and was affiliated with the <a href="https://www.statscale.org/" title="https://www.statscale.org">StatScale</a> programme. In September 2017 I defended my PhD thesis which I worked on under the supervision of Prof Richard J. Samworth. <br><br/>
 
 	  My research interests are mainly in developing statistical theory and methodology in nonparametric settings. Problems I have worked on include the estimation of entropy and other functionals, (conditional) independence testing and classification. I am also particularly interested in the application of nearest neighbour methods and permutation tests.
          </p>
@@ -27,6 +27,11 @@
 
          <h2>Core Statistical Publications and Preprints</h2>
          <p id="publications">
+	 <ul>
+	    <li>
+	       Berrett, T. B., Kontoyiannis, I. and Samworth, R. J. (2019) Optimal rates for independence testing via U-statistic permutation tests. <i> Preprint </i> (<a href="http://arxiv.org/abs/2001.05513">.pdf</a>).
+	    </li>
+	 </ul>
 	 <ul>
 	    <li>
 	       Berrett, T. B. and Butucea, C. (2019) Classification under local differential privacy. <i> Preprint </i> (<a href="http://arxiv.org/abs/1912.04629">.pdf</a>).
