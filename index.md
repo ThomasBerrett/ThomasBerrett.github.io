@@ -29,7 +29,7 @@
          <p id="publications">
 	 <ul>
 	    <li>
-	       Berrett, T. B., Kontoyiannis, I. and Samworth, R. J. (2019) Optimal rates for independence testing via U-statistic permutation tests. <i> Preprint </i> (<a href="http://arxiv.org/abs/2001.05513">.pdf</a>).
+	       Berrett, T. B., Kontoyiannis, I. and Samworth, R. J. (2020) Optimal rates for independence testing via U-statistic permutation tests. <i> Preprint </i> (<a href="http://arxiv.org/abs/2001.05513">.pdf</a>).
 	    </li>
 	 </ul>
 	 <ul>
