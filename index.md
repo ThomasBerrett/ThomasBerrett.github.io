@@ -44,7 +44,7 @@
 	 </ul>
 	 <ul>
 	    <li>
-	       Berrett, T. B., Wang, Y., Barber, R. F. and Samworth, R. J. (2019) The conditional permutation test for independence while controlling for confounders. <i> J. Roy. Statist. Soc., Ser B, to appear. </i> (<a href="https://arxiv.org/abs/1807.05405">.pdf</a>).
+	       Berrett, T. B., Wang, Y., Barber, R. F. and Samworth, R. J. (2019) The conditional permutation test for independence while controlling for confounders. <i> J. Roy. Statist. Soc., Ser B</i>,<b> 82</b>(1), 175-197 (<a href="https://arxiv.org/abs/1807.05405">.pdf</a>).
 	    </li>
 	 </ul>
 	 <ul>
