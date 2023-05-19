@@ -175,3 +175,68 @@ lines(Epsilon,PowerFuchs3,col=4)
 lines(Epsilon,PowerFuchs4,col=5)
 abline(h=0.05,col=3)
 
+
+
+
+######### Computational time simulations  #############
+
+## m-chain for d variables (S={{1,...,m}, {2,...,m+1}, ..., {d,1,2,...,m-1}})
+library(mgcv)
+
+cycleTime=function(d,m,r,n){
+  M=rep(r,d)
+  
+  bS=diag(d)
+  for(i in 2:m){
+    sdiag(bS,k=i-1)=1; sdiag(bS,k=i-d-1)=1
+  }
+  
+  pSh=c()
+  for(i in 1:nrow(bS)){
+    pI=1
+    for(j in 1:d){
+      if(bS[i,j]==1) pI=pI %o% rep(1/M[j],M[j])
+    }
+    pI=as.vector(pI)
+    pSh=c(pSh,rmultinom(1,n,pI)/n)
+  }
+  
+  return(system.time(Rindex(pSh,bS,M)))
+}
+
+m=2
+r=2
+n=10000
+D=4:20
+times=rep(0,length(D))
+for(d in D){
+  times[d-3]=cycleTime(d,m,r,n)[[3]]
+  print(c(d,times[d-3]))
+}
+plot(D,times,log="y",xlab=expression(italic(d)),ylab="Time (seconds)")
+points(D,times,col=4)
+
+#Results
+m=2; r=2; D=4:20; times=c(0.003,0.007,0.017,0.039,0.093,0.236,0.544,1.188,2.748,6.195,13.620,30.142,66.400,155.311,342.535,824.226,2045.329)
+m=3; r=2; D=4:20; times=c(0.019,0.007,0.017,0.042,0.109,0.258,0.579,1.206,2.777,6.395,14.218,31.622,67.201,160.102,351.033,779.325,1882.570)
+m=2; r=3; D=4:13; times=c(0.031,0.051,0.219,0.742,2.643,9.492,32.665,112.043,385.691,1449.216)
+m=3; r=3; D=4:12; times=c(0.015,0.056,0.229,0.771,2.922,9.772,33.401,117.253,399.721)
+
+
+m=2
+R=2:20
+n=10000
+d=5
+times=rep(0,length(R))
+for(r in R){
+  times[r-1]=cycleTime(d,m,r,n)[[3]]
+  print(c(r,times[r-1]))
+}
+plot(R,times,log="xy",xlim=c(2,50),xlab=expression(italic(r)),ylab="Time (seconds)")
+points(R,times,col=3)
+
+#Results
+m=2; R=2:42; d=3; times=c(0.002,0.005,0.007,0.015,0.027,0.045,0.070,0.100,0.152,0.212,0.285,0.496,0.634,0.635,0.951,1.232,1.531,1.892,2.365,2.586,3.515,4.363,4.630,6.351,7.555,8.584,11.469,12.719,16.791,18.490,21.521,25.488,34.666,36.110,42.846,47.203,65.218,82.252,106.862,102.907,112.790)
+m=2; R=2:21; d=4; times=c(0.004,0.013,0.042,0.116,0.253,0.436,0.813,1.435,2.040,3.145,4.994,7.119,10.586,15.022,21.713,31.368,44.674,59.828,84.926,128.118)
+m=2; R=2:13; d=5; times=c(0.027,0.052,0.247,0.726,1.859,4.045,8.015,14.832,26.766,45.667,79.213,142.089)
+
